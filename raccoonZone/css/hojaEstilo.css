@@ -1,0 +1,109 @@
+
+.blanco {
+    color: white;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header {
+    background-color: #232323;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+nav {
+    background-color: #3f4140;
+    overflow: hidden;
+}
+
+nav a{
+    color: white;
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+
+nav a:hover{
+    background-color: #d2c8bd;
+    color: black;
+}
+
+main{
+    padding: 20px;
+    text-align: center;
+
+}
+
+footer{
+    background-color: #3f4140;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+footer p{
+    color: white;
+}
+
+div {
+    padding: 15px;
+    text-align: left;
+    
+}
+
+
+.texto{
+    width: 60%;
+}
+
+
+
+table, th,td {
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+
+}
+th{
+    text-align: center;
+    height:70px;
+}
+
+td{
+    text-align: center;
+}
+
+
+div.galeria {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:left;
+    width: 180px;
+}
+
+div.galeria{
+    border:1px solid #777
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
